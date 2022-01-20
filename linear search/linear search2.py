@@ -7,7 +7,7 @@ print(a)
 val=int(input("Enter value to be searched"))
 for j in range (0,len(a)):
  if a[j] == val:
-  print(val,'found at location',j)
+  print(val,'found at location',j+1)
  else :
   print('not found')
   break
